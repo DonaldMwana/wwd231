@@ -1,0 +1,37 @@
+/* Tablet/Desktop Styles */
+@media(min-width: 600px){
+    #member-directory.grid-view {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #member-directory.grid-view .member-card {
+        width: 45%;
+        margin: 1%;
+    }
+
+    #member-directory.list-view .member-card {
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    nav ul {
+        gap: 2em;
+    }
+}
+
+@media(min-width: 900px){
+    #member-directory.grid-view .member-card {
+        width: 30%;
+        margin: 1%;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+}
