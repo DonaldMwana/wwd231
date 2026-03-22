@@ -1,7 +1,7 @@
 /* Tablet/Desktop Styles */
 @media(min-width: 600px){
     #member-directory.grid-view {
-        display: flex;
+        display: flex; /* Flex added */
         flex-wrap: wrap;
         justify-content: space-around;
     }

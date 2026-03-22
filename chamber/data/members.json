@@ -1,58 +1,9 @@
 [
-  {
-    "name": "Sunshine Cafe",
-    "address": "123 Main St, Your City",
-    "phone": "(555) 123-4567",
-    "website": "https://sunshinecafe.com",
-    "image": "https://via.placeholder.com/400x300?text=Sunshine+Cafe",
-    "membership": 2
-  },
-  {
-    "name": "Tech Solutions",
-    "address": "456 Tech Ave, Your City",
-    "phone": "(555) 987-6543",
-    "website": "https://techsolutions.com",
-    "image": "https://via.placeholder.com/400x300?text=Tech+Solutions",
-    "membership": 3
-  },
-  {
-    "name": "Green Gardens",
-    "address": "789 Park Blvd, Your City",
-    "phone": "(555) 246-8101",
-    "website": "https://greengardens.com",
-    "image": "https://via.placeholder.com/400x300?text=Green+Gardens",
-    "membership": 1
-  },
-  {
-    "name": "Fitness World",
-    "address": "321 Fitness St, Your City",
-    "phone": "(555) 369-1470",
-    "website": "https://fitnessworld.com",
-    "image": "https://via.placeholder.com/400x300?text=Fitness+World",
-    "membership": 3
-  },
-  {
-    "name": "Book Haven",
-    "address": "654 Library Ln, Your City",
-    "phone": "(555) 741-8520",
-    "website": "https://bookhaven.com",
-    "image": "https://via.placeholder.com/400x300?text=Book+Haven",
-    "membership": 2
-  },
-  {
-    "name": "Artistic Minds",
-    "address": "987 Creative Rd, Your City",
-    "phone": "(555) 963-2580",
-    "website": "https://artisticminds.com",
-    "image": "https://via.placeholder.com/400x300?text=Artistic+Minds",
-    "membership": 1
-  },
-  {
-    "name": "Happy Paws Vet",
-    "address": "159 Animal Ave, Your City",
-    "phone": "(555) 852-9630",
-    "website": "https://happypawsvet.com",
-    "image": "https://via.placeholder.com/400x300?text=Happy+Paws+Vet",
-    "membership": 3
-  }
+  { "name": "Sunshine Cafe", "address": "123 Main St, Your City", "phone": "(555) 123-4567", "website": "https://sunshinecafe.com", "image": "images/sunshine-cafe.png", "membership": 2 },
+  { "name": "Tech Solutions", "address": "456 Tech Ave, Your City", "phone": "(555) 987-6543", "website": "https://techsolutions.com", "image": "images/tech-solutions.png", "membership": 3 },
+  { "name": "Green Gardens", "address": "789 Park Blvd, Your City", "phone": "(555) 246-8101", "website": "https://greengardens.com", "image": "images/green-gardens.png", "membership": 1 },
+  { "name": "Fitness World", "address": "321 Fitness St, Your City", "phone": "(555) 369-1470", "website": "https://fitnessworld.com", "image": "images/fitness-world.png", "membership": 3 },
+  { "name": "Book Haven", "address": "654 Library Ln, Your City", "phone": "(555) 741-8520", "website": "https://bookhaven.com", "image": "images/book-haven.png", "membership": 2 },
+  { "name": "Artistic Minds", "address": "987 Creative Rd, Your City", "phone": "(555) 963-2580", "website": "https://artisticminds.com", "image": "images/artistic-minds.png", "membership": 1 },
+  { "name": "Happy Paws Vet", "address": "159 Animal Ave, Your City", "phone": "(555) 852-9630", "website": "https://happypawsvet.com", "image": "images/happy-paws-vet.png", "membership": 3 }
 ]
