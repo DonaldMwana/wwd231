@@ -1,9 +1,9 @@
 [
-  { "name": "Sunshine Cafe", "address": "123 Main St, Your City", "phone": "(555) 123-4567", "website": "https://sunshinecafe.com", "image": "images/sunshine-cafe.png", "membership": 2 },
-  { "name": "Tech Solutions", "address": "456 Tech Ave, Your City", "phone": "(555) 987-6543", "website": "https://techsolutions.com", "image": "images/tech-solutions.png", "membership": 3 },
-  { "name": "Green Gardens", "address": "789 Park Blvd, Your City", "phone": "(555) 246-8101", "website": "https://greengardens.com", "image": "images/green-gardens.png", "membership": 1 },
-  { "name": "Fitness World", "address": "321 Fitness St, Your City", "phone": "(555) 369-1470", "website": "https://fitnessworld.com", "image": "images/fitness-world.png", "membership": 3 },
-  { "name": "Book Haven", "address": "654 Library Ln, Your City", "phone": "(555) 741-8520", "website": "https://bookhaven.com", "image": "images/book-haven.png", "membership": 2 },
-  { "name": "Artistic Minds", "address": "987 Creative Rd, Your City", "phone": "(555) 963-2580", "website": "https://artisticminds.com", "image": "images/artistic-minds.png", "membership": 1 },
-  { "name": "Happy Paws Vet", "address": "159 Animal Ave, Your City", "phone": "(555) 852-9630", "website": "https://happypawsvet.com", "image": "images/happy-paws-vet.png", "membership": 3 }
+  { "name": "Sunshine Cafe", "address": "123 Main St, Pretoria", "phone": "(+27) 12123-4567", "website": "https://sunshinecafe.com", "image": "images/sunshine-cafe.jpeg", "membership": 2 },
+  { "name": "Tech Solutions", "address": "456 Tech Ave, Durban", "phone": "(+27) 98627-6543", "website": "https://techsolutions.com", "image": "images/tech-solutions.jpeg", "membership": 3 },
+  { "name": "Green Gardens", "address": "789 Park Blvd, Johanesberg", "phone": "(+27) 24236-8101", "website": "https://greengardens.com", "image": "images/green-gardens.png", "membership": 1 },
+  { "name": "Fitness World", "address": "321 Fitness St, Cape Town", "phone": "(+27) 36879-1470", "website": "https://fitnessworld.com", "image": "images/fitness-world.png", "membership": 3 },
+  { "name": "Book Haven", "address": "654 Library Ln, Port Elizabeth", "phone": "(+27) 79741-8520", "website": "https://bookhaven.com", "image": "images/book-haven.png", "membership": 2 },
+  { "name": "Artistic Minds", "address": "987 Creative Rd, Kimberley", "phone": "(+27) 45963-2580", "website": "https://artisticminds.com", "image": "images/artistic-minds.png", "membership": 1 },
+  { "name": "Happy Paws Vet", "address": "159 Animal Ave, Sun City", "phone": "(+27) 67852-9630", "website": "https://happypawsvet.com", "image": "images/happy-paws-vet.png", "membership": 3 }
 ]
