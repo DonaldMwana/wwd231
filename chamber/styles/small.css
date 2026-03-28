@@ -1,87 +1,79 @@
-/* Mobile-first styles with Roboto font */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+body{
+font-family: Roboto, Arial, sans-serif;
+margin:0;
+background:#f9f9f9;
+color:#333;
 }
 
-header {
-    background-color: #004080;
-    color: white;
-    padding: 1em;
-    text-align: center;
+/* HEADER */
+header{
+background:#004080;
+color:white;
+text-align:center;
+padding:1em;
 }
 
-header h1 {
-    font-weight: 700;
-    font-size: 1.8em;
-    margin: 0;
+nav ul{
+display:flex;
+justify-content:center;
+gap:1rem;
+list-style:none;
+padding:0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0.5em 0 0 0;
-    display: flex; /* Flex added */
-    justify-content: center;
-    gap: 1em;
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
+/* HERO */
+.hero{
+position:relative;
+text-align:center;
 }
 
-#view-options {
-    text-align: center;
-    margin: 1em 0;
+.hero img{
+width:100%;
 }
 
-#view-options button {
-    font-family: 'Roboto', Arial, sans-serif;
-    padding: 0.5em 1em;
-    margin: 0 0.25em;
-    border: none;
-    background-color: #004080;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
+.hero-text{
+position:absolute;
+top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+color:white;
 }
 
-#view-options button:hover {
-    background-color: #0066cc;
+.cta{
+background:#ff6600;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+border-radius:5px;
 }
 
-#member-directory {
-    padding: 0 1em;
+/* SECTIONS */
+.events,.weather,.spotlights{
+background:white;
+margin:1em;
+padding:1em;
+border-radius:6px;
 }
 
-.member-card {
-    border: 1px solid #ccc;
-    padding: 1em;
-    margin-bottom: 1em;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+/* MEMBER CARD */
+.member-card{
+border:1px solid #ccc;
+padding:1em;
+margin:1em 0;
+background:white;
+text-align:center;
 }
 
-.member-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-#member-directory.grid-view .member-card {
-    display: block;
-}
-
-footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    font-size: 0.9em;
+/* FOOTER */
+footer{
+background:#004080;
+color:white;
+text-align:center;
+padding:1em;
 }

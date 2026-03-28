@@ -1,37 +1,17 @@
-/* Tablet/Desktop Styles */
-@media(min-width: 600px){
-    #member-directory.grid-view {
-        display: flex; /* Flex added */
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+@media (min-width:900px){
 
-    #member-directory.grid-view .member-card {
-        width: 45%;
-        margin: 1%;
-    }
-
-    #member-directory.list-view .member-card {
-        width: 90%;
-        margin: 1% auto;
-    }
-
-    header h1 {
-        font-size: 2.2em;
-    }
-
-    nav ul {
-        gap: 2em;
-    }
+main{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:1rem;
 }
 
-@media(min-width: 900px){
-    #member-directory.grid-view .member-card {
-        width: 30%;
-        margin: 1%;
-    }
+.hero{
+grid-column:span 2;
+}
 
-    header h1 {
-        font-size: 2.5em;
-    }
+.spotlights{
+grid-column:span 2;
+}
+
 }
