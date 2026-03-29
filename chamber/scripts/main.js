@@ -1,5 +1,7 @@
+// Footer year
 document.getElementById("year").textContent =
-new Date().getFullYear();
+    new Date().getFullYear();
 
-document.getElementById("last-mod").textContent =
-document.lastModified;
+// Last modified date
+document.getElementById("lastModified").textContent =
+    document.lastModified;
