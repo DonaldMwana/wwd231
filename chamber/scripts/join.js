@@ -1,8 +1,6 @@
-// Set hidden timestamp value
 document.addEventListener("DOMContentLoaded", () => {
-    const timestampField = document.getElementById("timestamp");
-
-    if (timestampField) {
-        timestampField.value = new Date().toISOString();
+    const timestamp = document.getElementById("timestamp");
+    if (timestamp) {
+        timestamp.value = new Date().toISOString();
     }
 });
