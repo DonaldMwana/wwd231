@@ -1,59 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- REQUIRED META -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO -->
+<title>Join | Krugersdorp Chamber of Commerce</title>
 
-    <!-- TITLE -->
-    <title>Join | Krugersdorp Chamber of Commerce</title>
+<meta name="description"
+content="Apply to join the Krugersdorp Chamber of Commerce and connect your business with networking opportunities, partnerships, and community growth.">
 
-    <!-- META DESCRIPTION -->
-    <meta name="description"
-        content="Apply to join the Krugersdorp Chamber of Commerce and connect your business with networking opportunities, partnerships, and community growth.">
+<meta name="author" content="Donald Mwana">
 
-    <!-- META AUTHOR -->
-    <meta name="author" content="Donald Mwana">
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.ico">
 
-    <!-- ✅ OPEN GRAPH (FIXES ALL ERRORS) -->
-    <meta property="og:title"
-        content="Join the Krugersdorp Chamber of Commerce Today">
+<!-- Open Graph -->
+<meta property="og:title"
+content="Join the Krugersdorp Chamber of Commerce Today">
 
-    <meta property="og:description"
-        content="Become a member of the Krugersdorp Chamber of Commerce and grow your business through networking, collaboration, and local opportunities.">
+<meta property="og:description"
+content="Become a member of the Krugersdorp Chamber of Commerce and grow your business through networking, collaboration, and local opportunities.">
 
-    <!-- IMPORTANT: MUST BE ABSOLUTE URL -->
-    <meta property="og:image"
-        content="https://donaldmwana.github.io/wdd131/project/images/chamber-social.jpg">
+<!-- IMPORTANT: image must be same directory -->
+<meta property="og:image"
+content="https://donaldmwana.github.io/wdd131/project/chamber-social.jpg">
 
-    <meta property="og:url"
-        content="https://donaldmwana.github.io/wdd131/project/join.html">
+<meta property="og:url"
+content="https://donaldmwana.github.io/wdd131/project/join.html">
 
-    <meta property="og:type" content="website">
+<meta property="og:type" content="website">
 
-    <!-- FAVICON -->
-    <link rel="icon" href="images/favicon.ico">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <!-- CSS FILES -->
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+<!-- CSS -->
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
 
-    <!-- JAVASCRIPT -->
-    <script src="scripts/main.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+<!-- JS -->
+<script src="scripts/main.js" defer></script>
+<script src="scripts/join.js" defer></script>
 
 </head>
 
 <body>
 
 <header>
+    <p class="site-name">Krugersdorp Chamber of Commerce</p>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -67,51 +67,84 @@
 
 <main>
 
-    <h1>Chamber Membership Application</h1>
+<h1>Chamber Membership Application</h1>
 
-    <form method="get" action="thankyou.html">
+<form method="get" action="thankyou.html">
 
-        <label for="fname">First Name</label>
-        <input id="fname" name="fname" type="text" required>
+    <!-- First Name -->
+    <label for="fname">First Name
+        <input id="fname" name="fname" type="text" required
+            autocomplete="given-name"
+            title="Enter your first name">
+    </label>
 
-        <label for="lname">Last Name</label>
-        <input id="lname" name="lname" type="text" required>
+    <!-- Last Name -->
+    <label for="lname">Last Name
+        <input id="lname" name="lname" type="text" required
+            autocomplete="family-name"
+            title="Enter your last name">
+    </label>
 
-        <label for="orgtitle">Organization Title</label>
-        <input id="orgtitle" name="orgtitle" type="text">
+    <!-- Organization Title -->
+    <label for="orgtitle">Organization Title
+        <input id="orgtitle" name="orgtitle" type="text"
+            autocomplete="organization-title"
+            pattern="[A-Za-z\\-\\s]{7,}"
+            title="Minimum 7 characters. Letters, spaces, and hyphens only.">
+    </label>
 
-        <label for="email">Email Address</label>
-        <input id="email" name="email" type="email" required>
+    <!-- Email -->
+    <label for="email">Email Address
+        <input id="email" name="email" type="email" required
+            autocomplete="email"
+            placeholder="name@example.com"
+            title="Enter a valid email address">
+    </label>
 
-        <label for="phone">Mobile Phone</label>
-        <input id="phone" name="phone" type="tel" required>
+    <!-- Phone -->
+    <label for="phone">Mobile Phone
+        <input id="phone" name="phone" type="tel" required
+            autocomplete="tel"
+            placeholder="+27 123 456 789"
+            title="Enter your mobile phone number">
+    </label>
 
-        <label for="orgname">Organization Name</label>
-        <input id="orgname" name="orgname" type="text" required>
+    <!-- Organization Name -->
+    <label for="orgname">Organization Name
+        <input id="orgname" name="orgname" type="text" required
+            autocomplete="organization"
+            title="Enter your business or organization name">
+    </label>
 
-        <label for="membership">Membership Level</label>
+    <!-- Membership Level -->
+    <label for="membership">Membership Level
         <select id="membership" name="membership">
             <option value="np">NP Membership</option>
             <option value="bronze">Bronze Membership</option>
             <option value="silver">Silver Membership</option>
             <option value="gold">Gold Membership</option>
         </select>
+    </label>
 
-        <label for="description">Organization Description</label>
-        <textarea id="description" name="description"></textarea>
+    <!-- Organization Description -->
+    <label for="description">Organization Description
+        <textarea id="description" name="description"
+            title="Describe your organization"></textarea>
+    </label>
 
-        <!-- TIMESTAMP -->
-        <input type="hidden" id="timestamp" name="timestamp">
+    <!-- Timestamp -->
+    <input type="hidden" id="timestamp" name="timestamp">
 
-        <button type="submit">Submit Application</button>
+    <button type="submit">Submit Application</button>
 
-    </form>
+</form>
 
 </main>
 
 <footer>
+    <p>Contact: Donald Mwana | WDD 231</p>
     <p>&copy; <span id="year"></span> Krugersdorp Chamber of Commerce</p>
-    <p>Last Modified: <span id="lastModified"></span></p>
+    <p>Last Modified: <span id="last-mod"></span></p>
 </footer>
 
 </body>
