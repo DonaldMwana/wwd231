@@ -1,0 +1,17 @@
+[
+{"name":"Cape Town","location":"Western Cape","category":"City","image":"images/1.jpg","description":"Beautiful coastal city"},
+{"name":"Kruger National Park","location":"Mpumalanga","category":"Nature","image":"images/2.jpg","description":"Wildlife reserve"},
+{"name":"Durban Beach","location":"KZN","category":"Beach","image":"images/3.jpg","description":"Warm ocean"},
+{"name":"Johannesburg","location":"Gauteng","category":"City","image":"images/4.jpg","description":"Economic hub"},
+{"name":"Drakensberg","location":"KZN","category":"Nature","image":"images/5.jpg","description":"Mountains"},
+{"name":"Blyde Canyon","location":"Mpumalanga","category":"Nature","image":"images/6.jpg","description":"Canyon views"},
+{"name":"Hermanus","location":"Western Cape","category":"Beach","image":"images/7.jpg","description":"Whale watching"},
+{"name":"Soweto","location":"Gauteng","category":"City","image":"images/8.jpg","description":"Historic township"},
+{"name":"Sun City","location":"North West","category":"City","image":"images/9.jpg","description":"Resort"},
+{"name":"Knysna","location":"Western Cape","category":"Nature","image":"images/10.jpg","description":"Lagoon"},
+{"name":"Port Elizabeth","location":"Eastern Cape","category":"Beach","image":"images/11.jpg","description":"Coastal city"},
+{"name":"Addo Park","location":"Eastern Cape","category":"Nature","image":"images/12.jpg","description":"Elephants"},
+{"name":"Pretoria","location":"Gauteng","category":"City","image":"images/13.jpg","description":"Capital"},
+{"name":"Camps Bay","location":"Western Cape","category":"Beach","image":"images/14.jpg","description":"Luxury beach"},
+{"name":"Pilanesberg","location":"North West","category":"Nature","image":"images/15.jpg","description":"Safari park"}
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Destinations</title>
+<meta name="description" content="Browse South Africa destinations">
+<meta name="author" content="Your Name">
+
+<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Explore Destinations</h1>
+</header>
+
+<main>
+
+<input type="text" id="search" placeholder="Search destinations...">
+
+<div class="filters">
+<button data-cat="All">All</button>
+<button data-cat="City">City</button>
+<button data-cat="Nature">Nature</button>
+<button data-cat="Beach">Beach</button>
+</div>
+
+<div id="places"></div>
+
+<dialog id="modal"></dialog>
+
+</main>
+
+<script type="module" src="scripts/explore.js"></script>
+</body>
+</html>
