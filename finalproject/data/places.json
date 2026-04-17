@@ -1,26 +1,20 @@
 [
-{
-"name": "Cape Town",
-"location": "Western Cape",
-"category": "City",
-"image": "images/cape-town.jpg"
-},
-{
-"name": "Table Mountain",
-"location": "Cape Town",
-"category": "Nature",
-"image": "images/table-mountain.jpg"
-},
-{
-"name": "Durban Beach",
-"location": "KwaZulu-Natal",
-"category": "Beach",
-"image": "images/durban.jpg"
-},
-{
-"name": "Kruger National Park",
-"location": "Mpumalanga",
-"category": "Nature",
-"image": "images/kruger.jpg"
-}
+  {
+    "name": "Cape Town",
+    "location": "Western Cape",
+    "category": "City",
+    "image": "images/capetown.jpeg"
+  },
+  {
+    "name": "Durban Beach",
+    "location": "KwaZulu-Natal",
+    "category": "Beach",
+    "image": "images/durban.jpeg"
+  },
+  {
+    "name": "Kruger National Park",
+    "location": "Mpumalanga",
+    "category": "Nature",
+    "image": "images/elsasa.jpeg"
+  }
 ]

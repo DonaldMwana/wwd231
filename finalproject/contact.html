@@ -4,35 +4,54 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contact Us</title>
+<title>Contact Us | Explore South Africa</title>
 
-<meta name="description" content="Contact us for travel information and feedback.">
+<meta name="description" content="Contact Explore South Africa for travel inquiries, feedback, and assistance planning your next adventure.">
 <meta name="author" content="Donald Mwana">
 
-<meta property="og:title" content="Contact Us">
-<meta property="og:description" content="Get in touch for travel inquiries.">
-<meta property="og:image" content="https://yourdomain.com/images/durban.jpg">
+<meta property="og:title" content="Contact Explore South Africa">
+<meta property="og:description" content="Get in touch for travel advice, destination information, and planning support across South Africa.">
+<meta property="og:image" content="https://donaldmwana.github.io/wdd231/finalproject/images/og-image.jpg">
+<meta property="og:url" content="https://donaldmwana.github.io/wdd231/finalproject/contact.html">
 
+<meta name="theme-color" content="#0a3d62">
+<meta name="robots" content="index, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/style.css">
+
+<link rel="icon" href="favicon.ico">
 </head>
 
 <body>
 
 <header>
 <h1>Contact Us</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="explore.html">Explore</a></li>
+<li><a href="favorites.html">Favorites</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 </header>
 
 <main>
 
 <form>
-<label>Name</label>
-<input type="text" required>
+<label for="name">Name</label>
+<input id="name" name="name" type="text" required>
 
-<label>Email</label>
-<input type="email" required>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
 
-<label>Message</label>
-<textarea required></textarea>
+<label for="msg">Message</label>
+<textarea id="msg" name="message" required></textarea>
 
 <button type="submit">Send</button>
 </form>
@@ -40,8 +59,9 @@
 </main>
 
 <footer>
-<p>© 2026 Explore SA</p>
+<p>© 2026 Explore South Africa</p>
 </footer>
 
+<script src="scripts/main.js" type="module"></script>
 </body>
 </html>
